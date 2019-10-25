@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1544737141 source:c:\users\mahmoud saeed\desktop\assig.4\main.cpp
+	<iostream>
+	"base.h"
+	"dna.h"
+	"rna.h"
+
+1544801708 c:\users\mahmoud saeed\desktop\assig.4\include\base.h
+	<iostream>
+	<string>
+	<fstream>
+
+1544729947 c:\users\mahmoud saeed\desktop\assig.4\include\dna.h
+	"base.h"
+	<string>
+
+1544731138 c:\users\mahmoud saeed\desktop\assig.4\include\rna.h
+	"base.h"
+	<string>
+
+1544791834 source:c:\users\mahmoud saeed\desktop\assig.4\src\base.cpp
+	"base.h"
+	"dna.h"
+	"rna.h"
+	"protein.h"
+
+1544730701 c:\users\mahmoud saeed\desktop\assig.4\include\protein.h
+	<iostream>
+	"base.h"
+	<string>
+
+1544802537 source:c:\users\mahmoud saeed\desktop\assig.4\src\dna.cpp
+	"dna.h"
+	<iostream>
+	<fstream>
+	"rna.h"
+
+1544730727 source:c:\users\mahmoud saeed\desktop\assig.4\src\protein.cpp
+	"protein.h"
+	<iostream>
+	<fstream>
+	"base.h"
+
+1544731300 source:c:\users\mahmoud saeed\desktop\assig.4\src\rna.cpp
+	"rna.h"
+	"dna.h"
+	<iostream>
+	<cmath>
+	<fstream>
+	"base.h"
+
